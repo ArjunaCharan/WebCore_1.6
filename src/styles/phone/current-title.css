@@ -1,0 +1,16 @@
+.current-title {
+    margin-left: 16px;
+    position: relative;
+    font-size: 28px;
+    line-height: 40px;
+    align-self: center;
+}
+
+.current-title::before {
+    content: "";
+    background: url("../../img/highlight.svg") no-repeat;
+    width: 4px;
+    height: 40px;
+    position: absolute;
+    left: -16px;
+}

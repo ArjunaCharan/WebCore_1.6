@@ -1,0 +1,158 @@
+.price__title {
+    text-transform: uppercase;
+    color: #7E7E82;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 32px;
+    padding-top: 16px;
+    border-top: solid 1px #B8FFEC;
+    margin-top: 0;
+}
+
+.mySwiper-price {
+    margin-top: 50px;
+}
+
+.mySwiper-price__wrapper {
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.price__service-card {
+    display:block;
+    height: 64px;
+    width: 100%;
+    background-color: #FFFFFF;
+    padding: 0;
+    font-size: 14px;
+    position: relative;
+    border-right: solid 1px rgba(234, 234, 234, 1);
+    border-left: solid 1px rgba(234, 234, 234, 1);
+}
+
+.mySwiper-price__slide:first-child .price__service-card {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-top: solid 1px rgba(234, 234, 234, 1);
+}
+
+.mySwiper-price__slide:last-child .price__service-card {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-bottom: solid 1px rgba(234, 234, 234, 1);
+}
+
+.mySwiper-price__slide:first-child .price__service-card .price__service-type:before{
+    content: "Ремонтные услуги";
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    display: block;
+    position: absolute;
+    top: -28px;
+}
+
+.mySwiper-price__slide:first-child .price__service-card .price__service-price:before{
+    content: "Цена";
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    display: block;
+    position: absolute;
+    top: -50.4px;
+}
+
+.mySwiper-price__slide:first-child .price__service-card .price__service-time:before{
+    content: "Срок";
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    display: block;
+    position: absolute;
+    top: -50.4px;
+}
+
+.price__service-card:after {
+    content: "";
+    display:block;
+    height: 1px;
+    margin-left: 16px;
+    margin-right: 16px;
+    width: 95.5555%;
+    background-color: #EAEAEA;
+    position: absolute;
+    bottom: -1px;
+    z-index: 1;
+}
+
+.mySwiper-price__slide:last-child .price__service-card:after {
+    display: none;
+} 
+
+.price__service-type {
+    margin-left: 16px;
+    margin-top: 22.4px;
+    display: inline-block;
+}
+
+.price__service-price {
+    display: block;
+    width: 73px;
+    position: absolute;
+    right: 488px;
+    bottom: 22.4px;
+}
+
+.price__service-time {
+    display: block;
+    width: 81px;
+    position: absolute;
+    right: 254px;
+    bottom: 22.4px;
+}
+
+.price__service-order {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    width: 119px;
+    height: 32px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 16px;
+    right: 16px;
+    bottom: 16px;
+    color: white;
+    background: url("../../img/order.svg") 96px 50% no-repeat;
+    background-color: #FF3E79;
+}
+
+.price__details {
+    margin-top: 32px;
+    margin-left: 32px;
+    margin-right: 16px;
+    font-size: 14px;
+    color: #1B1C21;
+    letter-spacing: 0.2px;
+    max-width: 421px;
+}
+
+.price__get-deal {
+    display: block;
+    color: #1B1C21;
+    margin: 16px;
+    margin-left: 32px;
+    margin-bottom: 40px;
+}
+
+.price__get-deal::after {
+    content: "";
+    display: inline-block;
+    position: relative;
+    left: 5px;
+    top: 2.5px;
+    width: 8px;
+    height: 12px;
+    background: url("../../img/get-deal.svg") 0 0 no-repeat;
+}

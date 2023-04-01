@@ -1,0 +1,21 @@
+@import url(".\/pad\/main-menu.css");
+@import url(".\/pad\/main-header.css");
+@import url(".\/pad\/slide-menu.css");
+@import url(".\/pad\/current-title.css");
+@import url(".\/pad\/main-info.css");
+@import url(".\/pad\/brands-repair.css");
+@import url(".\/pad\/tech-repair.css");
+@import url(".\/pad\/price.css");
+@import url(".\/pad\/main-footer.css");
+@import url(".\/pad\/call.css");
+@import url(".\/pad\/feedback.css");
+
+body {
+    background-color: #F8F8F8;
+    /* max-width: 1200px;
+    position: relative; */
+}
+
+.main-container--hidden {
+    display: none;
+}

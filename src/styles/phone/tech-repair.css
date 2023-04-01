@@ -1,0 +1,33 @@
+.tech-repair__title {
+    text-transform: uppercase;
+    color: #7E7E82;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-top: solid 1px #B8FFEC;
+    margin-top: 0;
+}
+
+.tech-button {
+    display: flex;
+    width: 238px;
+    height: 158px;
+    border-radius: 6px;
+    border: solid 1px rgba(234, 234, 234, 1);
+    padding: 0;
+    background: url("../../img/go.svg") 184px 104px no-repeat;
+    text-align: left;
+    padding: 16px;
+    font-family: inherit;
+    font-size: 16px;
+    background-color: #FFFFFF;
+}
+
+.mySwiper-tech {
+    height: 193px;
+}
+
+.tech-repair__expander {
+    display: none;
+}

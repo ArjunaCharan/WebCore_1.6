@@ -1,0 +1,39 @@
+.main-header {
+    display: flex;
+    height: 92px;
+    align-items: center;
+    background-color: white;
+    position: relative;
+    border-bottom: solid 1px #B8FFEC;
+}
+
+.main-header--hidden {
+    display: none;
+}
+
+.main-header button {
+    border-width: 0;
+    width: 40px;
+    height: 40px;
+}
+
+.main-header__burger-button {
+    background: url("../../img/burger.svg") no-repeat;
+    margin-left: 24px;
+}
+
+.main-header__group-img {
+    margin-left: 16px;
+}
+
+.main-header__repair-button {
+    background: url("../../img/repair.svg") no-repeat;
+    position: absolute;
+    right: 72px;
+}
+
+.main-header__checkstatus-button {
+    background: url("../../img/checkstatus.svg") no-repeat;
+    position: absolute;
+    right: 16px;
+}

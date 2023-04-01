@@ -1,0 +1,31 @@
+.main-footer {
+    border-top: solid 1px #B8FFEC;
+    font-size: 14px;
+    text-align: center;
+    color: #7E7E82;
+    mix-blend-mode: normal;
+    opacity: 0.72;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.main-footer p {
+    margin: 0;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.main-footer p:first-child {
+    text-align: left;
+}
+
+.main-footer p:nth-child(2) {
+    text-align: center;
+}
+
+.main-footer p:nth-child(3) {
+    text-align: right;
+}
+

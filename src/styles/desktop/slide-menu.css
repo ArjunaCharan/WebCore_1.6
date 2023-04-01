@@ -1,0 +1,32 @@
+.slide-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    
+}
+
+.slide-menu__item {
+    white-space: nowrap;
+    height: 40px;
+    border: 0;
+    min-width: auto;
+    font-family: "TT Lakes Medium";
+    appearance: none;
+    color: #7E7E82;
+    border-radius: px;
+    background: inherit;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-style: normal;
+    letter-spacing: -0.2px;
+    border: solid 2px #F8F8F8;
+    cursor: pointer;
+}
+
+.slide-menu__item--active {
+    border: solid 2px #B8FFEC;
+    background-color: white;
+    border-radius: 6px;
+}

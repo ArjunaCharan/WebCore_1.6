@@ -1,0 +1,16 @@
+@import url("phone.css") (min-width: 320px) and (max-width: 767.98px);
+@import url("pad.css") (min-width: 768px) and (max-width: 1365.98px);
+@import url("desktop.css") (min-width: 1366px);
+@import url("swiper-bundle.css") (min-width: 320px) and (max-width: 767.98px);
+@import url("fonts.css");
+
+html {
+    font-family: "TT-Lakes-Medium";
+    background-color: gray;
+}
+
+body {
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,70 @@
+.brands-repair__title {
+    text-transform: uppercase;
+    color: #7E7E82;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-top: 16px;
+    border-top: solid 1px #B8FFEC;
+}
+
+.brand-button--lenovo {
+    background: url("../../img/lenovo.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--samsung {
+    background: url("../../img/samsung.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--apple {
+    background: url("../../img/apple.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--viewsonic {
+    background: url("../../img/viewsonic.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--bosch {
+    background: url("../../img/bosch.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--hp {
+    background: url("../../img/hp.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--acer {
+    background: url("../../img/acer.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+.brand-button--sony {
+    background: url("../../img/sony.png") 16px 50% no-repeat,
+                url("../../img/go.svg") 184px 50% no-repeat;
+}
+
+
+.brand-button {
+    display:block;
+    width: 238px;
+    height: 70px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+    border: solid 1px rgba(234, 234, 234, 1);
+    padding: 0;
+}
+
+.mySwiper-brands {
+    height: 105px;
+}
+
+.brands-repair__expander {
+    display: none;
+}
+
+

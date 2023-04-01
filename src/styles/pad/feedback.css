@@ -1,0 +1,123 @@
+.feedback {
+    display: none;
+}
+
+.feedback--active {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: 3;
+    top: 0;
+    right: 0;
+    width: 440px;
+    box-shadow: -16px 0px 52px rgba(14, 24, 80, 0.2);
+}
+
+.feedback__close {
+    background: url("../../img/close.svg") no-repeat;
+    width: 40px;
+    height: 40px;
+    border-width: 0;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+
+.feedback__title {
+    margin-left: 16px;
+    position: relative;
+    font-size: 28px;
+    line-height: 40px;
+    margin-bottom: 0;
+}
+
+.feedback__title::before {
+    content: "";
+    background: url("../../img/highlight.svg") no-repeat;
+    width: 4px;
+    height: 40px;
+    position: absolute;
+    left: -16px;
+}
+
+.feedback .name {
+    display: block;
+    width: 90%;
+    margin: 16px;
+    margin-top: 24px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: #EAEAEA;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.feedback .phone {
+    display: block;
+    width: 90%;
+    margin: 16px;
+    margin-top: 24px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: #EAEAEA;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.feedback .email {
+    display: block;
+    width: 90%;
+    margin: 16px;
+    margin-top: 24px;
+    height: 48px;
+    border-radius: 8px;
+    border-color: #EAEAEA;
+    border-width: 1px;
+    border-style: solid;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.feedback .message {
+    width: 90%;
+    padding: 16px;
+    vertical-align: top;
+    margin: 16px;
+    margin-top: 24px;
+    height: 118px;
+    border-radius: 8px;
+    border-color: #EAEAEA;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.feedback .link {
+    color: red;
+}
+
+.feedback .agree {
+    color: #7E7E82;
+    margin: 16px;
+    font-size: 14px;
+}
+
+.feedback .submit-button {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: url("../../img/order.svg") no-repeat 109px 50%;
+    background-color: #FF3E79;
+    border-width: 0;
+    border-radius: 16px;
+    height: 32px;
+    width: 136px;
+    text-align: left;
+    position: absolute;
+    right: 16px;
+    padding-left: 16px;
+}

@@ -1,0 +1,19 @@
+@import url(".\/phone\/main-menu.css");
+@import url(".\/phone\/main-header.css");
+@import url(".\/phone\/slide-menu.css");
+@import url(".\/phone\/current-title.css");
+@import url(".\/phone\/main-info.css");
+@import url(".\/phone\/brands-repair.css");
+@import url(".\/phone\/tech-repair.css");
+@import url(".\/phone\/price.css");
+@import url(".\/phone\/main-footer.css");
+@import url(".\/phone\/call.css");
+@import url(".\/phone\/feedback.css");
+
+body {
+    background-color: #F8F8F8;
+}
+
+.main-container--hidden {
+    display: none;
+}
